@@ -18,6 +18,7 @@
     <allure.results.directory>target/allure-results</allure.results.directory>
     <maven.surefire-plugin.version>3.5.2</maven.surefire-plugin.version>
     <suiteXmlFilePath>src/test/resources/suites</suiteXmlFilePath>
+    <suiteXmlFile>myntra/myntra.xml</suiteXmlFile>
     <aspectj.version>1.9.9.1</aspectj.version>
   </properties>
 
