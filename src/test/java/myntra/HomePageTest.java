@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import util.dataprovider.BrowserDataProvider;
 
 public class HomePageTest {
-  private static final String MYNTRA_URL = "https://www.myntra.com";
+  private static final String MYNTRA_URL = "https://www.myntra.com/";
   private final ThreadLocal<Page> page = ThreadLocal.withInitial(() -> null);
   private final ThreadLocal<HomePage> homePage = ThreadLocal.withInitial(() -> null);
 
